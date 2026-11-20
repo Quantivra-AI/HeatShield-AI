@@ -1,0 +1,66 @@
+{
+  "run_at": "2026-11-16T10:21:07.377413+00:00",
+  "summary": {
+    "registered_sources": 9,
+    "ingested": 1,
+    "already_ingested": 5,
+    "blocked_rights_review": 3,
+    "source_file_missing": 0,
+    "no_text_extracted": 0
+  },
+  "results": [
+    {
+      "source_id": "WHO-WMO-WORKPLACE-HEAT-2025",
+      "status": "ingested",
+      "pages": 93,
+      "chunks": 216,
+      "sha256": "f261cef4651b4cd5d645cdaac7d9f1115713e363c688becf1c3fd120c0557dda",
+      "processed_file": "C:\\Users\\batch_rakqo9r\\Downloads\\heatshield-ai-starter\\backend\\data\\knowledge\\processed\\WHO-WMO-WORKPLACE-HEAT-2025.jsonl"
+    },
+    {
+      "source_id": "ILO-HEAT-AT-WORK-2024",
+      "status": "already_ingested",
+      "chunks": 260,
+      "sha256": "140db12cf363acd65cfb3a85a854586a16b8a83dadb81cb5fe11d40f31674163"
+    },
+    {
+      "source_id": "NIOSH-2016-106",
+      "status": "already_ingested",
+      "chunks": 420,
+      "sha256": "db50cd0d8c9ac921e6eacad550ba9ed34629891ace4035ccbeffc44fd8ba5ea3"
+    },
+    {
+      "source_id": "CDC-CLINICAL-HEAT-GUIDANCE",
+      "status": "already_ingested",
+      "chunks": 3,
+      "sha256": "bf27b557694fc8caffcb834b6987bf5f06a768773a3f9ae04e71785a806305cc"
+    },
+    {
+      "source_id": "CDC-HEAT-MEDICATIONS-2025",
+      "status": "already_ingested",
+      "chunks": 8,
+      "sha256": "60ad79bafce0ee357ae4ebec441417723910a1c4285f9839850580876b09cbe3"
+    },
+    {
+      "source_id": "WMS-HEAT-ILLNESS-2024",
+      "status": "blocked_rights_review",
+      "message": "Ingestion is blocked until reuse rights are reviewed and ingestion_approved is explicitly set to true."
+    },
+    {
+      "source_id": "ISO-7243-2017",
+      "status": "blocked_rights_review",
+      "message": "Ingestion is blocked until reuse rights are reviewed and ingestion_approved is explicitly set to true."
+    },
+    {
+      "source_id": "ISO-7933-2023",
+      "status": "blocked_rights_review",
+      "message": "Ingestion is blocked until reuse rights are reviewed and ingestion_approved is explicitly set to true."
+    },
+    {
+      "source_id": "CDC-HEATRISK-TOOL-2025",
+      "status": "already_ingested",
+      "chunks": 11,
+      "sha256": "b807f20407b4cc5521cf6a8cc8414010fb05ed2a58e42af06fd0ff7c49951a0d"
+    }
+  ]
+}

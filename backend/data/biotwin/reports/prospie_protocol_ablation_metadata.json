@@ -1,0 +1,18 @@
+{
+    "experiment": "PROSPIE Protocol Context Ablation",
+    "target": "corerectal",
+    "samples": 155,
+    "participants": 40,
+    "conditions": 9,
+    "outer_splits": 5,
+    "inner_splits": 4,
+    "validation": "Nested GroupKFold by participant",
+    "target_definition": "Mean work-phase rectal core temperature per participant-condition",
+    "limitations": [
+        "Exploratory analysis only.",
+        "Condition is an experimental protocol identifier.",
+        "Results do not establish generalisation to new workplaces.",
+        "The target is contemporaneous work-phase temperature, not future heat-risk forecasting.",
+        "The dataset contains a small number of independent participants."
+    ]
+}

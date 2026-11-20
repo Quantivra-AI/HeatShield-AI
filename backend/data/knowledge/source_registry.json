@@ -1,0 +1,248 @@
+{
+  "registry_version": "1.1.0",
+  "created_at": "2026-11-15",
+  "policy": {
+    "default_jurisdiction": "international",
+    "rule": "Do not ingest or redistribute a full document unless its access and reuse terms have been checked. A public webpage or free-to-read article is not automatically licensed for bulk reuse.",
+    "evidence_separation": [
+      "clinical_guideline",
+      "occupational_guideline",
+      "technical_standard",
+      "government_guidance",
+      "peer_reviewed_research"
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "WHO-WMO-WORKPLACE-HEAT-2025",
+      "title": "Climate change and workplace heat stress: technical report and guidance",
+      "organization": "World Health Organization / World Meteorological Organization",
+      "publication_date": "2025-08-22",
+      "document_type": "occupational_guideline",
+      "domains": [
+        "occupational_heat",
+        "clinical_health_effects",
+        "climate_health",
+        "prevention"
+      ],
+      "jurisdiction": "international",
+      "authority_type": "intergovernmental_technical_guidance",
+      "source_url": "https://www.who.int/publications/i/9789240099814",
+      "download_url": "https://iris.who.int/server/api/core/bitstreams/5334aba1-063d-4163-94ae-a1154bb48e83/content",
+      "expected_filename": "WHO-WMO-WORKPLACE-HEAT-2025.pdf",
+      "access_status": "official_download_available",
+      "reuse_status": "cc_by_nc_sa_3_0_igo_noncommercial_sharealike",
+      "ingestion_approved": true,
+      "evidence_grade": "technical_report_guidance",
+      "notes": "96-page WHO/WMO technical report. Approved for non-commercial prototype research and RAG use under CC BY-NC-SA 3.0 IGO, with attribution. Adaptations must use the same or equivalent licence. Third-party material may have separate rights. Commercial deployment requires separate rights review or permission."
+    },
+    {
+      "source_id": "ILO-HEAT-AT-WORK-2024",
+      "title": "Heat at work: Implications for safety and health ? a global review of the science, policy and practice",
+      "organization": "International Labour Organization",
+      "publication_date": "2024-07-25",
+      "document_type": "occupational_guideline",
+      "domains": [
+        "occupational_heat",
+        "worker_health",
+        "workplace_controls",
+        "policy"
+      ],
+      "jurisdiction": "international_comparative",
+      "authority_type": "intergovernmental_research_report",
+      "source_url": "https://www.ilo.org/publications/heat-work-implications-safety-and-health",
+      "download_url": "https://www.ilo.org/sites/default/files/2024-07/ILO_OSH_Heatstress-R16.pdf",
+      "expected_filename": "ILO-HEAT-AT-WORK-2024.pdf",
+      "access_status": "open_access",
+      "reuse_status": "CC-BY-4.0",
+      "ingestion_approved": true,
+      "evidence_grade": "global_review",
+      "notes": "ILO repository record identifies the English full text as CC BY 4.0. Preserve attribution and licence when using extracted material."
+    },
+    {
+      "source_id": "NIOSH-2016-106",
+      "title": "Criteria for a Recommended Standard: Occupational Exposure to Heat and Hot Environments",
+      "organization": "US National Institute for Occupational Safety and Health (CDC/NIOSH)",
+      "publication_date": "2016-02-10",
+      "document_type": "occupational_guideline",
+      "domains": [
+        "occupational_heat",
+        "physiology",
+        "exposure_assessment",
+        "PPE",
+        "acclimatization"
+      ],
+      "jurisdiction": "United States_reference_international_research",
+      "authority_type": "government_scientific_criteria",
+      "source_url": "https://www.cdc.gov/niosh/docs/2016-106/",
+      "download_url": "https://www.cdc.gov/niosh/docs/2016-106/pdfs/2016-106.pdf",
+      "expected_filename": "NIOSH-2016-106.pdf",
+      "access_status": "official_pdf",
+      "reuse_status": "us_government_work_text_only_third_party_excluded",
+      "ingestion_approved": true,
+      "evidence_grade": "scientific_criteria_document",
+      "notes": "US government scientific criteria document. Use as a technical reference, not universally binding law. Extract text only; exclude third-party material."
+    },
+    {
+      "source_id": "CDC-CLINICAL-HEAT-GUIDANCE",
+      "title": "Quick Start Guide for Clinicians on Heat and Health",
+      "organization": "US Centers for Disease Control and Prevention",
+      "publication_date": "2024-07-17",
+      "document_type": "clinical_guidance",
+      "domains": [
+        "clinical_screening",
+        "heat_illness",
+        "chronic_conditions",
+        "clinical_prevention"
+      ],
+      "jurisdiction": "United States_reference_international",
+      "authority_type": "government_clinical_guidance",
+      "source_url": "https://www.cdc.gov/heat-health/hcp/clinical-guidance/quick-start-guide-for-clinicians.html",
+      "download_url": null,
+      "expected_filename": "CDC-CLINICAL-HEAT-GUIDANCE.html",
+      "access_status": "public_webpage",
+      "reuse_status": "us_government_work_text_only_third_party_excluded",
+      "ingestion_approved": true,
+      "evidence_grade": "clinical_guidance",
+      "notes": "First published 2024-07-17; last reviewed 2025-09-24. Extract CDC-authored text only; exclude third-party material."
+    },
+    {
+      "source_id": "CDC-HEAT-MEDICATIONS-2025",
+      "title": "Heat and Medications ? Guidance for Clinicians",
+      "organization": "US Centers for Disease Control and Prevention",
+      "publication_date": "2024-07-17",
+      "document_type": "clinical_guidance",
+      "domains": [
+        "medication_interactions",
+        "clinical_risk_factors",
+        "thermoregulation",
+        "clinical_prevention"
+      ],
+      "jurisdiction": "United States_reference_international",
+      "authority_type": "government_clinical_guidance",
+      "source_url": "https://www.cdc.gov/heat-health/hcp/clinical-guidance/heat-and-medications-guidance-for-clinicians.html",
+      "download_url": null,
+      "expected_filename": "CDC-HEAT-MEDICATIONS-2025.html",
+      "access_status": "public_webpage",
+      "reuse_status": "us_government_work_text_only_third_party_excluded",
+      "ingestion_approved": true,
+      "evidence_grade": "expert_clinical_guidance",
+      "notes": "First published 2024-07-17; last reviewed 2025-09-18. CDC guidance reflects expert opinion. Never recommend stopping or changing medication. Extract CDC-authored text only."
+    },
+    {
+      "source_id": "WMS-HEAT-ILLNESS-2024",
+      "title": "Wilderness Medical Society Clinical Practice Guidelines for the Prevention and Treatment of Heat Illness: 2024 Update",
+      "organization": "Wilderness Medical Society",
+      "publication_date": "2024-03-01",
+      "document_type": "clinical_practice_guideline",
+      "domains": [
+        "heat_illness",
+        "emergency_medicine",
+        "first_aid",
+        "clinical_treatment",
+        "acclimatization"
+      ],
+      "jurisdiction": "clinical_guidance_context_dependent",
+      "authority_type": "professional_medical_society_guideline",
+      "source_url": "https://journals.sagepub.com/doi/10.1177/10806032241227924",
+      "download_url": "https://journals.sagepub.com/doi/pdf/10.1177/10806032241227924",
+      "expected_filename": "WMS-HEAT-ILLNESS-2024.pdf",
+      "access_status": "free_to_read",
+      "reuse_status": "permission_or_licence_review_required",
+      "ingestion_approved": false,
+      "evidence_grade": "graded_clinical_practice_guideline",
+      "notes": "The guideline grades recommendations by evidence quality and benefit-risk balance. Free access does not by itself grant bulk text reuse rights."
+    },
+    {
+      "source_id": "ISO-7243-2017",
+      "title": "Ergonomics of the thermal environment — Assessment of heat stress using the WBGT index",
+      "organization": "International Organization for Standardization",
+      "publication_date": "2017-08",
+      "document_type": "technical_standard",
+      "domains": [
+        "WBGT",
+        "thermal_environment",
+        "occupational_exposure_assessment"
+      ],
+      "jurisdiction": "international_standard",
+      "authority_type": "international_consensus_standard",
+      "source_url": "https://www.iso.org/standard/67188.html",
+      "download_url": null,
+      "expected_filename": null,
+      "access_status": "abstract_and_metadata_only",
+      "reuse_status": "licensed_purchase_required_for_full_text",
+      "ingestion_approved": false,
+      "evidence_grade": "international_standard",
+      "notes": "ISO page states the standard is published and under review/revision lifecycle. Do not treat the abstract as the full standard."
+    },
+    {
+      "source_id": "ISO-7933-2023",
+      "title": "Ergonomics of the thermal environment — Analytical determination and interpretation of heat stress using calculation of the predicted heat strain",
+      "organization": "International Organization for Standardization",
+      "publication_date": "2023",
+      "document_type": "technical_standard",
+      "domains": [
+        "predicted_heat_strain",
+        "thermal_modelling",
+        "occupational_exposure_assessment"
+      ],
+      "jurisdiction": "international_standard",
+      "authority_type": "international_consensus_standard",
+      "source_url": "https://www.iso.org/standard/78240.html",
+      "download_url": null,
+      "expected_filename": null,
+      "access_status": "abstract_and_metadata_only",
+      "reuse_status": "licensed_purchase_required_for_full_text",
+      "ingestion_approved": false,
+      "evidence_grade": "international_standard",
+      "notes": "Metadata registration only until a licensed copy is available. Do not infer formulae or thresholds from the title or abstract."
+    },
+    {
+      "source_id": "CDC-HEATRISK-TOOL-2025",
+      "title": "How to use the HeatRisk Tool and Air Quality Index",
+      "organization": "US Centers for Disease Control and Prevention",
+      "publication_date": "2024-07-17",
+      "document_type": "government_guidance",
+      "domains": [
+        "environmental_heat_risk",
+        "public_health",
+        "clinical_decision_support",
+        "air_quality"
+      ],
+      "jurisdiction": "United States_reference_international",
+      "authority_type": "government_public_health_guidance",
+      "source_url": "https://www.cdc.gov/heat-health/hcp/clinical-guidance/how-to-use-the-heatrisk-tool-and-air-quality-index.html",
+      "expected_filename": "CDC-HEATRISK-TOOL.html",
+      "access_status": "public_webpage",
+      "reuse_status": "us_government_work_text_only_third_party_excluded",
+      "ingestion_approved": true,
+      "evidence_grade": "government_guidance",
+      "notes": "First published 2024-07-17; last reviewed 2025-09-18; page updated 2025-09-29. US HeatRisk tool guidance, not a universal occupational exposure threshold. Extract CDC-authored text only."
+    },
+    {
+      "source_id": "MENDELEY-FIREFIGHTER-HEAT-2025",
+      "title": "Circadian Timing and Heat Stress in Firefighters",
+      "organization": "Normandie Universite / Mendeley Data",
+      "publication_date": "2025-10-27",
+      "document_type": "peer_reviewed_research_dataset",
+      "domains": [
+        "occupational_heat",
+        "physiological_strain",
+        "core_temperature",
+        "heart_rate",
+        "hydration",
+        "environmental_exposure"
+      ],
+      "jurisdiction": "France; controlled live-fire training cohort",
+      "authority_type": "anonymized_research_dataset",
+      "source_url": "https://data.mendeley.com/datasets/7ghxcsd9sz/1",
+      "download_url": "https://api.data.mendeley.com/datasets/7ghxcsd9sz/zip?version=1",
+      "expected_filename": "Tcore_AM_PM.csv; HR_RPE_BW.csv; Skin_Microclimate.csv; Environment_Thermocouples.csv",
+      "access_status": "public_dataset; downloader_script_included",
+      "reuse_status": "CC_BY_4.0",
+      "ingestion_approved": true,
+      "evidence_grade": "observational_experimental_dataset",
+      "notes": "21 male professional firefighters; AM/PM standardized live-fire exposures. Use as population-level research context only. Not a disease-labelled cohort and not an individual diagnostic model. Cite Mauvieux et al. (2025), DOI 10.17632/7ghxcsd9sz.1."
+    }
+  ]
+}

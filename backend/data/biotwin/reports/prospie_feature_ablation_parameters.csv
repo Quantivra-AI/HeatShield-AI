@@ -1,0 +1,21 @@
+fold,feature_set,best_alpha,best_inner_cv_mae
+1,Environmental only,100.0,0.20087302341037755
+1,Environmental + workload,100.0,0.2131016697287985
+1,Environmental + workload + personal,100.0,0.2188804895477674
+1,All features + protocol context,0.1,0.2098277033499415
+2,Environmental only,100.0,0.1911629425624324
+2,Environmental + workload,100.0,0.19403538024589917
+2,Environmental + workload + personal,100.0,0.19482360750447575
+2,All features + protocol context,0.1,0.19209947380531803
+3,Environmental only,100.0,0.19779304449734847
+3,Environmental + workload,100.0,0.2073572653110127
+3,Environmental + workload + personal,100.0,0.21000169345876016
+3,All features + protocol context,1.0,0.20487099877950338
+4,Environmental only,10.0,0.17234117957059536
+4,Environmental + workload,100.0,0.17474971779128404
+4,Environmental + workload + personal,100.0,0.1803678345519604
+4,All features + protocol context,0.1,0.17252244519859197
+5,Environmental only,100.0,0.20287680788514112
+5,Environmental + workload,100.0,0.20818581052972007
+5,Environmental + workload + personal,100.0,0.20918077760130907
+5,All features + protocol context,1.0,0.20542736226076433

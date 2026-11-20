@@ -1,0 +1,83 @@
+{
+  "manifest_version": "1.0.0",
+  "generated_at": "2026-11-16T10:21:07.315476+00:00",
+  "documents": [
+    {
+      "source_id": "ILO-HEAT-AT-WORK-2024",
+      "title": "Heat at work: Implications for safety and health — a global review of the science, policy and practice",
+      "source_file": "raw\\ILO-HEAT-AT-WORK-2024.pdf",
+      "processed_file": "processed\\ILO-HEAT-AT-WORK-2024.jsonl",
+      "sha256": "140db12cf363acd65cfb3a85a854586a16b8a83dadb81cb5fe11d40f31674163",
+      "page_count_with_text": 104,
+      "chunk_count": 260,
+      "ingested_at": "2026-11-15T15:46:04.553367+00:00",
+      "status": "ingested",
+      "reuse_status": "CC-BY-4.0"
+    },
+    {
+      "source_id": "NIOSH-2016-106",
+      "title": "Criteria for a Recommended Standard: Occupational Exposure to Heat and Hot Environments",
+      "source_file": "raw\\NIOSH-2016-106.pdf",
+      "processed_file": "processed\\NIOSH-2016-106.jsonl",
+      "sha256": "db50cd0d8c9ac921e6eacad550ba9ed34629891ace4035ccbeffc44fd8ba5ea3",
+      "page_count_with_text": 192,
+      "chunk_count": 420,
+      "ingested_at": "2026-11-15T18:17:06.881119+00:00",
+      "status": "ingested",
+      "reuse_status": "us_government_work_text_only_third_party_excluded"
+    },
+    {
+      "source_id": "CDC-CLINICAL-HEAT-GUIDANCE",
+      "title": "Quick Start Guide for Clinicians on Heat and Health",
+      "source_file": "raw\\CDC-CLINICAL-HEAT-GUIDANCE.html",
+      "processed_file": "processed\\CDC-CLINICAL-HEAT-GUIDANCE.jsonl",
+      "sha256": "bf27b557694fc8caffcb834b6987bf5f06a768773a3f9ae04e71785a806305cc",
+      "page_count_with_text": 1,
+      "chunk_count": 3,
+      "ingested_at": "2026-11-15T18:17:07.060492+00:00",
+      "status": "ingested",
+      "reuse_status": "us_government_work_text_only_third_party_excluded"
+    },
+    {
+      "source_id": "CDC-HEAT-MEDICATIONS-2025",
+      "title": "Heat and Medications ? Guidance for Clinicians",
+      "source_file": "raw\\CDC-HEAT-MEDICATIONS-2025.html",
+      "processed_file": "processed\\CDC-HEAT-MEDICATIONS-2025.jsonl",
+      "sha256": "60ad79bafce0ee357ae4ebec441417723910a1c4285f9839850580876b09cbe3",
+      "page_count_with_text": 1,
+      "chunk_count": 8,
+      "ingested_at": "2026-11-15T18:17:07.092358+00:00",
+      "status": "ingested",
+      "reuse_status": "us_government_work_text_only_third_party_excluded"
+    },
+    {
+      "source_id": "CDC-HEATRISK-TOOL-2025",
+      "title": "How to use the HeatRisk Tool and Air Quality Index",
+      "source_file": "raw\\CDC-HEATRISK-TOOL.html",
+      "processed_file": "processed\\CDC-HEATRISK-TOOL-2025.jsonl",
+      "sha256": "b807f20407b4cc5521cf6a8cc8414010fb05ed2a58e42af06fd0ff7c49951a0d",
+      "page_count_with_text": 1,
+      "chunk_count": 11,
+      "ingested_at": "2026-11-15T18:17:07.122426+00:00",
+      "status": "ingested",
+      "reuse_status": "us_government_work_text_only_third_party_excluded"
+    },
+    {
+      "source_id": "WHO-WMO-WORKPLACE-HEAT-2025",
+      "title": "Climate change and workplace heat stress: technical report and guidance",
+      "source_file": "raw\\WHO-WMO-WORKPLACE-HEAT-2025.pdf",
+      "processed_file": "processed\\WHO-WMO-WORKPLACE-HEAT-2025.jsonl",
+      "sha256": "f261cef4651b4cd5d645cdaac7d9f1115713e363c688becf1c3fd120c0557dda",
+      "page_count_with_text": 93,
+      "chunk_count": 216,
+      "ingested_at": "2026-11-16T10:21:07.315476+00:00",
+      "status": "ingested",
+      "reuse_status": "cc_by_nc_sa_3_0_igo_noncommercial_sharealike"
+    }
+  ],
+  "summary": {
+    "registered_sources": 9,
+    "ingested_documents": 6,
+    "note": "Only successfully parsed local files are counted as ingested documents."
+  }
+}

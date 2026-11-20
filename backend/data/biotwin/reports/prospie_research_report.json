@@ -1,0 +1,19 @@
+{
+    "dataset": "PROSPIE",
+    "total_comparisons": 304,
+    "environmental_comparisons": 108,
+    "physiological_comparisons": 196,
+    "environmental_bh_significant": 62,
+    "physiological_bh_significant": 30,
+    "comparisons_with_fewer_than_10_pairs": 37,
+    "multiple_testing_method": "Benjamini-Hochberg",
+    "significance_threshold": 0.05,
+    "interpretation": [
+        "Exploratory paired comparisons, not causal evidence.",
+        "BH adjustment was applied across the complete comparison set.",
+        "Overall, work, and rest comparisons may be related.",
+        "Low paired sample sizes require caution.",
+        "High-missingness metrics should not support broad conclusions.",
+        "Population-level findings must not be converted into individual worker medical risk scores."
+    ]
+}

@@ -1,0 +1,7 @@
+metric,missing_percent,available_count,warning
+br,43.88,9689,High missingness; interpret cautiously.
+ts,89.15,1874,High missingness; interpret cautiously.
+tc,89.15,1874,High missingness; interpret cautiously.
+tp,89.15,1874,High missingness; interpret cautiously.
+rpe,97.28,470,High missingness; interpret cautiously.
+sw,98.09,330,High missingness; interpret cautiously.

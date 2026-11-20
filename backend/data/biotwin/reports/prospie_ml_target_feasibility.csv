@@ -1,0 +1,6 @@
+target,status,total_rows,available_rows,missing_percent,unique_participants,unique_conditions,participants_with_data,minimum_rows_per_participant,maximum_rows_per_participant
+corerectal,assessed,17264,17196,0.39,40,9,40,101,741
+δcore,assessed,17264,17086,1.03,40,9,40,101,741
+hr,assessed,17264,11953,30.76,40,9,40,52,733
+br,assessed,17264,9689,43.88,22,6,22,101,648
+sweatproductionl,assessed,17264,16942,1.87,40,9,40,101,741

@@ -1,0 +1,92 @@
+{
+    "dataset": "PROSPIE",
+    "source_file": "prospie_cleaned.csv",
+    "total_records": 17264,
+    "unique_participants": 40,
+    "conditions": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+    ],
+    "duplicate_participant_condition_time_records": 0,
+    "participant_condition_phase_rows": 465,
+    "metric_quality": {
+        "corerectal": {
+            "missing_count": 68,
+            "missing_percent": 0.39,
+            "available_count": 17196
+        },
+        "δcore": {
+            "missing_count": 178,
+            "missing_percent": 1.03,
+            "available_count": 17086
+        },
+        "hr": {
+            "missing_count": 5311,
+            "missing_percent": 30.76,
+            "available_count": 11953
+        },
+        "sweatproductionl": {
+            "missing_count": 322,
+            "missing_percent": 1.87,
+            "available_count": 16942
+        },
+        "temp": {
+            "missing_count": 236,
+            "missing_percent": 1.37,
+            "available_count": 17028
+        },
+        "humidity": {
+            "missing_count": 236,
+            "missing_percent": 1.37,
+            "available_count": 17028
+        },
+        "wind": {
+            "missing_count": 1227,
+            "missing_percent": 7.11,
+            "available_count": 16037
+        },
+        "tamb": {
+            "missing_count": 961,
+            "missing_percent": 5.57,
+            "available_count": 16303
+        },
+        "br": {
+            "missing_count": 7575,
+            "missing_percent": 43.88,
+            "available_count": 9689
+        },
+        "ts": {
+            "missing_count": 15390,
+            "missing_percent": 89.15,
+            "available_count": 1874
+        },
+        "tc": {
+            "missing_count": 15390,
+            "missing_percent": 89.15,
+            "available_count": 1874
+        },
+        "tp": {
+            "missing_count": 15390,
+            "missing_percent": 89.15,
+            "available_count": 1874
+        },
+        "rpe": {
+            "missing_count": 16794,
+            "missing_percent": 97.28,
+            "available_count": 470
+        },
+        "sw": {
+            "missing_count": 16934,
+            "missing_percent": 98.09,
+            "available_count": 330
+        }
+    },
+    "interpretation": "Exploratory research analysis. Repeated minute-level measurements are summarized within participants before paired comparisons. Incomplete trials are retained."
+}

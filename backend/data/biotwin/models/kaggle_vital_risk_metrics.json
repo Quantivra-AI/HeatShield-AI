@@ -1,0 +1,197 @@
+{
+  "dataset": "Kaggle Human Vital Sign Dataset",
+  "dataset_slug": "nasirayub2/human-vital-sign-dataset",
+  "source_file": "human_vital_signs_dataset_2024.csv",
+  "rows_total": 200020,
+  "rows_used": 200020,
+  "feature_columns": [
+    "heart_rate_bpm",
+    "respiratory_rate_bpm",
+    "body_temperature_c",
+    "spo2_pct",
+    "systolic_bp_mmhg",
+    "diastolic_bp_mmhg",
+    "derived_bmi"
+  ],
+  "target_column": "Risk Category",
+  "class_counts": {
+    "1": 105115,
+    "0": 94905
+  },
+  "split": "group holdout 80/20 by Patient ID",
+  "tuning_rows": 60000,
+  "cv_folds": 3,
+  "selection_metric": "balanced_accuracy; tie-break high-risk recall then macro-F1",
+  "model_comparison": {
+    "RandomForest_tuned": {
+      "cv_balanced_accuracy": 0.9999841812199444,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "high_risk_precision": 1.0,
+      "high_risk_recall": 1.0,
+      "low_risk_recall": 1.0,
+      "confusion_matrix_labels_high_low": [
+        [
+          20962,
+          0
+        ],
+        [
+          0,
+          19042
+        ]
+      ],
+      "classification_report": {
+        "High Risk": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 19042.0
+        },
+        "Low Risk": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 20962.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 40004.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 40004.0
+        }
+      },
+      "best_params": {
+        "model__max_depth": null,
+        "model__max_features": 1.0,
+        "model__min_samples_leaf": 2,
+        "model__min_samples_split": 4,
+        "model__n_estimators": 600
+      }
+    },
+    "XGBoost_tuned": {
+      "cv_balanced_accuracy": 0.9979622750485296,
+      "accuracy": 0.9978502149785021,
+      "balanced_accuracy": 0.9978308210692215,
+      "macro_f1": 0.9978451890468142,
+      "high_risk_precision": 0.9976637741966244,
+      "high_risk_recall": 0.9982349012498808,
+      "low_risk_recall": 0.9974267408885621,
+      "confusion_matrix_labels_high_low": [
+        [
+          20925,
+          37
+        ],
+        [
+          49,
+          18993
+        ]
+      ],
+      "classification_report": {
+        "High Risk": {
+          "precision": 0.9980557015239097,
+          "recall": 0.9974267408885621,
+          "f1-score": 0.9977411220844715,
+          "support": 19042.0
+        },
+        "Low Risk": {
+          "precision": 0.9976637741966244,
+          "recall": 0.9982349012498808,
+          "f1-score": 0.9979492560091568,
+          "support": 20962.0
+        },
+        "accuracy": 0.9978502149785021,
+        "macro avg": {
+          "precision": 0.997859737860267,
+          "recall": 0.9978308210692215,
+          "f1-score": 0.9978451890468142,
+          "support": 40004.0
+        },
+        "weighted avg": {
+          "precision": 0.9978503325449436,
+          "recall": 0.9978502149785021,
+          "f1-score": 0.9978501837615352,
+          "support": 40004.0
+        }
+      },
+      "best_params": {
+        "model__colsample_bytree": 1.0,
+        "model__learning_rate": 0.025,
+        "model__max_depth": 5,
+        "model__min_child_weight": 7,
+        "model__n_estimators": 250,
+        "model__reg_lambda": 1,
+        "model__subsample": 1.0
+      }
+    }
+  },
+  "selected_model": "RandomForest_tuned",
+  "selected_metrics": {
+    "cv_balanced_accuracy": 0.9999841812199444,
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_f1": 1.0,
+    "high_risk_precision": 1.0,
+    "high_risk_recall": 1.0,
+    "low_risk_recall": 1.0,
+    "confusion_matrix_labels_high_low": [
+      [
+        20962,
+        0
+      ],
+      [
+        0,
+        19042
+      ]
+    ],
+    "classification_report": {
+      "High Risk": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 19042.0
+      },
+      "Low Risk": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20962.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 40004.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 40004.0
+      }
+    },
+    "best_params": {
+      "model__max_depth": null,
+      "model__max_features": 1.0,
+      "model__min_samples_leaf": 2,
+      "model__min_samples_split": 4,
+      "model__n_estimators": 600
+    }
+  },
+  "interpretation": "All metrics measure reproduction of the dataset's threshold-derived High Risk/Low Risk label only. They are not clinical validation, disease prediction performance, or proof of generalization to occupational workers.",
+  "limitations": [
+    "Source label is threshold-derived, not a clinical outcome.",
+    "No respiratory/cardiac disease outcome labels.",
+    "Repeated or synthetic records may exist; participant independence is unknown unless group split was used.",
+    "Not validated on HeatShield workers or occupational heat outcomes.",
+    "No disease probability is produced."
+  ]
+}

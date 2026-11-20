@@ -1,0 +1,87 @@
+{
+    "dataset": "PROSPIE",
+    "rows": 17264,
+    "participants": 40,
+    "conditions": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+    ],
+    "validation_recommendation": "Use participant-grouped validation. Never randomly split minute-level rows across training and test sets.",
+    "important_limitations": [
+        "Repeated minute-level records are not independent observations.",
+        "Participant identity must be used for grouping, not as a predictive feature.",
+        "Target and feature missingness must be assessed separately.",
+        "Trial-level measurements must not be treated as minute-level measurements.",
+        "Public research data must not generate individual worker medical risk scores.",
+        "Any model result is exploratory and not a validated safety or clinical tool."
+    ],
+    "target_results": [
+        {
+            "target": "corerectal",
+            "status": "assessed",
+            "total_rows": 17264,
+            "available_rows": 17196,
+            "missing_percent": 0.39,
+            "unique_participants": 40,
+            "unique_conditions": 9,
+            "participants_with_data": 40,
+            "minimum_rows_per_participant": 101,
+            "maximum_rows_per_participant": 741
+        },
+        {
+            "target": "δcore",
+            "status": "assessed",
+            "total_rows": 17264,
+            "available_rows": 17086,
+            "missing_percent": 1.03,
+            "unique_participants": 40,
+            "unique_conditions": 9,
+            "participants_with_data": 40,
+            "minimum_rows_per_participant": 101,
+            "maximum_rows_per_participant": 741
+        },
+        {
+            "target": "hr",
+            "status": "assessed",
+            "total_rows": 17264,
+            "available_rows": 11953,
+            "missing_percent": 30.76,
+            "unique_participants": 40,
+            "unique_conditions": 9,
+            "participants_with_data": 40,
+            "minimum_rows_per_participant": 52,
+            "maximum_rows_per_participant": 733
+        },
+        {
+            "target": "br",
+            "status": "assessed",
+            "total_rows": 17264,
+            "available_rows": 9689,
+            "missing_percent": 43.88,
+            "unique_participants": 22,
+            "unique_conditions": 6,
+            "participants_with_data": 22,
+            "minimum_rows_per_participant": 101,
+            "maximum_rows_per_participant": 648
+        },
+        {
+            "target": "sweatproductionl",
+            "status": "assessed",
+            "total_rows": 17264,
+            "available_rows": 16942,
+            "missing_percent": 1.87,
+            "unique_participants": 40,
+            "unique_conditions": 9,
+            "participants_with_data": 40,
+            "minimum_rows_per_participant": 101,
+            "maximum_rows_per_participant": 741
+        }
+    ]
+}

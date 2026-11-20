@@ -1,0 +1,21 @@
+fold,model,best_alpha,inner_cv_best_mae
+1,Condition only,1.0,0.19395760801111223
+1,Environmental + condition,100.0,0.19977172655682904
+1,Environmental + workload + condition,100.0,0.21161771063810814
+1,All features + condition,0.1,0.2098277033499415
+2,Condition only,100.0,0.19173873280814047
+2,Environmental + condition,100.0,0.19076384761698256
+2,Environmental + workload + condition,100.0,0.1935206662484666
+2,All features + condition,0.1,0.1920974766918877
+3,Condition only,1.0,0.1912623511719327
+3,Environmental + condition,10.0,0.19584957196343966
+3,Environmental + workload + condition,100.0,0.20545467437560863
+3,All features + condition,1.0,0.20486017529959305
+4,Condition only,10.0,0.16845860509937235
+4,Environmental + condition,10.0,0.16917296985989533
+4,Environmental + workload + condition,100.0,0.17371832169893459
+4,All features + condition,0.1,0.17249621453383313
+5,Condition only,10.0,0.20259987522244421
+5,Environmental + condition,100.0,0.2025610784429048
+5,Environmental + workload + condition,100.0,0.20720897632786892
+5,All features + condition,1.0,0.2054003983872715
